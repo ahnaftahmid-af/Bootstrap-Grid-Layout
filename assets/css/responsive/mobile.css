@@ -1,0 +1,28 @@
+
+@media (max-width: 320px) {
+
+    .col-1 {
+        font-size: 12px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 0px) and (max-width: 425px) {
+    
+
+    .col-1 {
+        border-right: 1px solid #fff;
+        border-left: 1px solid #fff;
+    }
+
+        .col-1:first-child {
+            border-left: 0;
+        }
+    
+        .col-1:last-child {
+            border-right: 0;
+        }
+
+}
